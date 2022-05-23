@@ -108,10 +108,8 @@ const styles = StyleSheet.create({
     searchBoxContainer: {
         display: 'flex',
         flexDirection: 'row',
-        position: 'absolute',
-        width: '90%',
+        width: '100%',
         alignSelf: 'center',
-        marginHorizontal: moderateScale(5),
         marginTop: moderateScale(60),
       },
     map: {
@@ -148,11 +146,12 @@ const styles = StyleSheet.create({
         elevation: 10,
     },
     searchContainer: {
+        width: '100%',
         display: 'flex',
         flexDirection: 'column',
     },
     searchResult: {
-        width: '87%',
+        width: '100%',
         position:'absolute',
         marginTop: moderateScale(100),
         marginHorizontal: moderateScale(20),
