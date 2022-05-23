@@ -1,2 +1,2 @@
-# vocally-rn-app
+# Vocally React Native App
 Vocally React Native App
