@@ -1,10 +1,11 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 const SearchScreen = props => {
     return (
         <View style={styles.container}>
-            <Text>Search Screen 2</Text>
+            <Text>Search Screen</Text>
         </View>
     );
 };

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, {useState} from 'react';
 import { View, Text, Button, StyleSheet, SafeAreaView, TouchableOpacity } from 'react-native';
 
@@ -5,7 +6,7 @@ import { View, Text, Button, StyleSheet, SafeAreaView, TouchableOpacity } from '
 const HomeScreen = (props) => {
     return (
         <View style={styles.container}>
-            <Text>Home</Text>
+            <Text>Home screen</Text>
         </View>
     );
 };

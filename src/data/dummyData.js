@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const Images = [
     { image: require("../res/images/nature.jpeg") }
 ]

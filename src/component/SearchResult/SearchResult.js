@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {View, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native';
 import { moderateScale } from '@utils/utils';

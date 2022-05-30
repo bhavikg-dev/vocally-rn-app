@@ -1,12 +1,10 @@
 {
-  "name": "testmapapp",
+  "name": "vocally",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "androidRelease": "cd ./android && ./gradlew app:assembleRelease",
-    "android-dev": "adb reverse tcp:8081 tcp:8081 && react-native run-android",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."

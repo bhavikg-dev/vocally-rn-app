@@ -1,4 +1,4 @@
-package com.testmapapp.newarchitecture.modules;
+package com.vocallyapp.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

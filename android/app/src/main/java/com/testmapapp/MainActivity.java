@@ -1,4 +1,4 @@
-package com.testmapapp;
+package com.vocallyapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

@@ -1,11 +1,11 @@
+/* eslint-disable prettier/prettier */
 import React, {useState} from 'react';
 import { 
-    View, 
-    StyleSheet, 
-    SafeAreaView, 
-    TouchableOpacity, 
-    FlatList ,
-    useColorScheme
+    View,
+    StyleSheet,
+    SafeAreaView,
+    TouchableOpacity,
+    FlatList,
 } from 'react-native';
 import { moderateScale } from '../utils/utils';
 import Card from '../component/Card/Card';
@@ -54,7 +54,7 @@ const MapScreen = props => {
      * @returns 
      */
     const renderLocation = (item, index) => {
-        return(
+        return (
             <SearchResult 
                 location={item.location}
                 key={index}
@@ -84,7 +84,6 @@ const MapScreen = props => {
                     />
                 </View>}
             </View>
-            
 
             <View style={styles.toggleContainer}>
                 <TouchableOpacity style={[{backgroundColor:`${themeStyle}`, borderColor: `${themeStyle}`, color: `${textColor}`}, styles.colorToggle, styles.shadow]} onPress={() => setTheme(theme === DefaultTheme ? DarkTheme : DefaultTheme)} >
@@ -111,6 +110,7 @@ const styles = StyleSheet.create({
         width: '100%',
         alignSelf: 'center',
         marginTop: moderateScale(60),
+        
       },
     map: {
         height: 400,
@@ -149,6 +149,7 @@ const styles = StyleSheet.create({
         width: '100%',
         display: 'flex',
         flexDirection: 'column',
+        paddingHorizontal: moderateScale(20),
     },
     searchResult: {
         width: '100%',

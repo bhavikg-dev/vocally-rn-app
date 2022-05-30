@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react'
 import { StyleSheet, View, Text, TouchableOpacity, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -6,7 +7,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import { moderateScale } from '@utils/utils';
 import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
-import ChatScreen from '../screens/ChatScreen';
+import NotificationScreen from '../screens/NotificationScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import MapScreen from '../screens/MapScreen';
 import { useTheme } from '@react-navigation/native';
@@ -89,7 +90,7 @@ const Tabs = () =>{
         />
         <Tab.Screen 
           name="Chat" 
-          component={ChatScreen} 
+          component={NotificationScreen} 
           options={{
             tabBarLabel: 'Chat',
             tabBarIcon: ({focused}) => (

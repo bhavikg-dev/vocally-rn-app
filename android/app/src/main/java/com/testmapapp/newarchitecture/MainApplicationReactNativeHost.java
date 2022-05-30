@@ -1,4 +1,4 @@
-package com.testmapapp.newarchitecture;
+package com.vocallyapp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.testmapapp.BuildConfig;
-import com.testmapapp.newarchitecture.components.MainComponentsRegistry;
-import com.testmapapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.vocallyapp.BuildConfig;
+import com.vocallyapp.newarchitecture.components.MainComponentsRegistry;
+import com.vocallyapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

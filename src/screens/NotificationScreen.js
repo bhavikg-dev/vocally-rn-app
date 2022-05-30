@@ -1,15 +1,16 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-const ChatScreen = (props) => {
+const NotificationScreen = (props) => {
     return (
         <View style={styles.container}>
-            <Text></Text>
+            <Text>Notification Screen</Text>
         </View>
     );
 };
 
-export default ChatScreen;
+export default NotificationScreen;
 
 const styles = StyleSheet.create({
     container: {
